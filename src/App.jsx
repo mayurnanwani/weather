@@ -60,7 +60,7 @@ function App() {
   // Fetch weather data from the weather API using location from the search bar
   useEffect(() => {
     fetch(
-      `https://api.weatherapi.com/v1/forecast.json?key=b7593827f7c63912b8307b8944b50092&q=${location}&days=3&aqi=no&alerts=yes`
+      `https://api.weatherapi.com/v1/forecast.json?key=10f332742318b6eed782948b9425626d&q=${location}&days=3&aqi=no&alerts=yes`
     )
       .then((response) => response.json())
       .then((data) => {
