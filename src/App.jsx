@@ -46,7 +46,7 @@ function App() {
   // Fetch weather data from the weather API using latitude and longitude
   useEffect(() => {
     fetch(
-      `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${lat}, ${lon}&days=3&aqi=no&alerts=yes`
+      `https://api.weatherapi.com/v1/forecast.json?key=10f332742318b6eed782948b9425626d&q=${lat}, ${lon}&days=3&aqi=no&alerts=yes`
     )
       .then((response) => response.json())
       .then((data) => {
